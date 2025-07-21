@@ -20,25 +20,30 @@ int main() {
         std::cin >> yea;
 
         int cyea = std::stoi(yea);
+        std::cout << "You entered:" << cyea << std::endl;
 
-        if(cyea >= 25) {
-            std::cout << " Perfect weather! Take a walk or a subway or even the bus" << std::endl;
-
+        if (cyea <= -2) {
+            std::cout << "Bbbbbbbrrrrrrrr, think about wearing a down jacket/s and multiple sweaters take a subway defanitly do not walk" << std::endl;
         }
-        else if(cyea < 25) {
-            std::cout << "Little chilly out there, get a light jacket or/and a sweater, walk or take the subway" << std::endl;
+        else if (cyea <= 0) {
+            std::cout << "Wear a down jacket if you have to but probably don\'t go out" << std::endl;
 
         }
         else if (cyea <= 10) {
             std::cout << "Very chilly, bundle up take an uber or even the subway" << std::endl;
 
         }
-        else if (cyea <= 0) {
-            std::cout << "Wear a down jacket if you have to but probably don\'t go out" << std::endl;
+        else if(cyea < 25) {
+            std::cout << "Little chilly out there, get a light jacket or/and a sweater, walk or take the subway" << std::endl;
+
+        }
+        else if(cyea >= 25) {
+            std::cout << " Perfect weather! Take a walk or a subway or even the bus" << std::endl;
 
         }
 
     }
+    return 0;
 }
 
 // No browser!!!

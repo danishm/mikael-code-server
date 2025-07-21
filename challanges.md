@@ -63,6 +63,35 @@ Enter a number (1-10): 5
 *
 ```
 
+Challange 4 - The Square From Mars
+----------------------------------
+
+Take an input of a number from a user and draw a square on the screen
+
+Example 1:
+
+```
+Enter a number (2-10): 3
+
+***
+* *
+***
+```
+
+Example 2:
+
+```
+Enter a number (2-10): 5
+
+*****
+*   *
+*   *
+*   *
+*****
+```
+
+__Language__: *You're Choice!*
+
 
 For Abu:
 ========

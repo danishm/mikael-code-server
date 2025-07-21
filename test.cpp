@@ -5,5 +5,5 @@ int main() {
     std::cout << "Enter your age: "; // Prompt the user
     std::cin >> age; // Read an integer from input and store it in 'age'
     std::cout << "You entered: " << age << std::endl;
-    return -1;
+    return 0;
 }

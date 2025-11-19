@@ -10,7 +10,7 @@ void code(int cod) {
 
     
 
-    if(cod == '5299miksha66') {
+    if(cod == "5299miksha66") {
         std::cout << "You are right!!";
     }
 
